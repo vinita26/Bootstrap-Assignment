@@ -1,0 +1,10 @@
+$fontsize : 25px;
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-nav{
+  font-size: $fontsize;
+}
