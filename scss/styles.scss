@@ -1,7 +1,28 @@
-.navbar navbar-expand-lg navbar-light bg-light{
+.navbar {
+  display: flex;
+  justify-content: space-around;
   position: fixed;
+  background-color: black;
+}
+
+.navbar-nav{
+  font-size: 25px;
 }
 
 body{
-  background-image: url("img/stars.jpeg");
+  // background-image: url("../img/stars.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+
+.container-fluid{
+  padding-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  // padding-left: 420px;
 }
