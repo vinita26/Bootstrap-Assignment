@@ -4,13 +4,26 @@ $fontsize : 25px;
   display: flex;
   justify-content: center;
 }
-
 .navbar-nav{
   font-size: $fontsize;
 }
-
-
 .container .row{
   display: flex;
   justify-content: center;
+}
+// .container-cards .card-deck{
+//   display: flex;
+//   justify-content: space-around;
+// }
+.container-cards .card-deck .card img{
+  width: 350px;
+  height: 400px;
+  align-self: center;
+}
+#carouselExampleControls{
+  padding-bottom: 20px;
+}
+.video-cards, .container-cards .card-deck{
+  margin-left: 1px;
+  margin-right: 1px;
 }

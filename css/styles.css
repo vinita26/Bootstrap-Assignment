@@ -16,10 +16,21 @@ ol {
   display: flex;
   justify-content: center; }
 
+.container-cards .card-deck .card img {
+  width: 350px;
+  height: 400px;
+  align-self: center; }
+
+#carouselExampleControls {
+  padding-bottom: 20px; }
+
+.video-cards, .container-cards .card-deck {
+  margin-left: 1px;
+  margin-right: 1px; }
+
 .navbar {
   display: flex;
-  justify-content: space-around;
-  position: fixed; }
+  justify-content: space-around; }
 
 .container-fluid {
   padding-bottom: 30px; }
@@ -30,10 +41,14 @@ ol {
 .accordion .card-header {
   background-color: #0000c2; }
 
+.accordion h2 {
+  background-color: #0000c2;
+  padding-bottom: 10px; }
+
 @media screen and (min-width: 320px) and (max-width: 640px) {
   .navbar-brand img {
     width: 90px; } }
 
 .vedio-cards iframe {
-  width: 486px;
+  width: 286px;
   height: 180px; }
