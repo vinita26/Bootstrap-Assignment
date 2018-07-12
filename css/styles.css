@@ -1,0 +1,33 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  display: flex;
+  justify-content: center; }
+
+.navbar-nav {
+  font-size: 25px; }
+
+.container .row {
+  display: flex;
+  justify-content: center; }
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  position: fixed; }
+
+.container-fluid {
+  padding-bottom: 30px; }
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+  .navbar-brand img {
+    width: 90px; } }
+
+.vedio-cards iframe {
+  width: 486px;
+  height: 180px; }
